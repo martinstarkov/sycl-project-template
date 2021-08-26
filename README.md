@@ -2,7 +2,7 @@
 A template SYCL project using the CMake build automation system.
 
 # Usage
-Run the following commands in terminal
+Run the following commands with terminal opened in this repository's directory
 
 1. ```mkdir build```
 
