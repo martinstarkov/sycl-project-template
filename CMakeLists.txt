@@ -1,16 +1,16 @@
-cmake_minimum_required(VERSION 3.1)
+cmake_minimum_required(VERSION 3.4.3)
 
-project(sycl-project-template)
+project(test_application)
 
 set(SRC_FILES
     "src/main.cpp"
     "src/program.cpp")
 
-set(HEADER_FILES
-    "src/program.h")
-
 set(SYCL_FILES
     "src/main.cpp")
+    
+set(HEADER_FILES
+    "src/program.h")
 
 list(APPEND CMAKE_MODULE_PATH
     "${CMAKE_SOURCE_DIR}/cmake")
